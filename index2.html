@@ -286,10 +286,13 @@ h1 {
 .btn-whatsapp {
   color: #818181;
   background-color: #e6ffee !important;
-  /* background-color: rgba(74, 201, 89, .1) !important; */
-  border-color: #4AC959;
   padding: 12px 16px;
-  border-radius: 10px;
+  border-radius: 10px !important;
+}
+
+.btn-whatsapp:hover {
+  background-color: #818181 !important;
+  color: white !important;
 }
 
 .btn-xl {
@@ -335,7 +338,8 @@ h1 {
   <form>
     <div class="input-group">
       <div class="input-group-btn"> 
-		<a href="https://api.whatsapp.com/send?phone=5511975751748&text=Olá%21%20Gostaria%20de%20mais%20informações%20sobre%20o%20BlackJack%20Pet%20Shop." class="btn btn-whatsapp" role="button"><i class="fa fa-whatsapp" style="font-size:30px;color:#4AC959;"></i> Atendimento via WhatsApp!</a>
+		<!--<a href="https://api.whatsapp.com/send?phone=5511975751748&text=Olá%21%20Gostaria%20de%20mais%20informações%20sobre%20o%20BlackJack%20Pet%20Shop." class="btn btn-whatsapp" role="button"><i class="fa fa-whatsapp" style="font-size:30px;color:#4AC959;"></i> Atendimento via WhatsApp!</a>-->
+		<a href="https://api.whatsapp.com/send?phone=5511975751748&text=Olá%21%20Gostaria%20de%20mais%20informações%20sobre%20o%20BlackJack%20Pet%20Shop." class="btn-xl btn btn-whatsapp text-center"><i class="fa fa-whatsapp" style=""></i> Atendimento via WhatsApp!</a>
       </div>
     </div>
   </form>
