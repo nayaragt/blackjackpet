@@ -20,7 +20,7 @@
   body {
     font: 400 15px Lato, sans-serif;
     line-height: 1.8;
-    color: #818181; /* #e6e6e6; */
+    color: #818181;
   }
   h2 {
     font-size: 24px;
@@ -207,7 +207,7 @@
     margin-right: auto;
     /* width: 50%; */
   }
-  
+
 * {
   box-sizing: border-box;
 }
@@ -285,10 +285,13 @@ h1 {
 .btn-whatsapp {
   color: #818181;
   background-color: #e6ffee !important;
-  /* background-color: rgba(74, 201, 89, .1) !important; */
-  border-color: #4AC959;
   padding: 12px 16px;
-  border-radius: 10px;
+  border-radius: 10px !important;
+}
+
+.btn-whatsapp:hover {
+  background-color: #818181 !important;
+  color: white !important;
 }
 
 .btn-xl {
@@ -534,6 +537,14 @@ h1 {
     </div>
   </div>
 <!-- END GRID HOTEL -->
+
+<!-- START GRID VIDEO -->
+<video width="240" height="320" controls>
+  <source src="assets/video/video1.mp4" type="video/mp4">
+  <source src="assets/video/video1.ogg" type="video/ogg">
+  Your browser does not support the video tag.
+</video>
+<!-- END GRID VIDEO -->
   
 <!-- END GRID -->
 </div>
