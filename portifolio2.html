@@ -16,7 +16,8 @@
   
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
-<style>
+
+  <style>
   body {
     font: 400 15px Lato, sans-serif;
     line-height: 1.8;
@@ -300,13 +301,10 @@ h1 {
     border-radius: 10px;
 	color: #818181;
 }
-</style>
+
+  </style>
 </head>
-
-<body id="myPage" class="bg-grey" data-spy="scroll" data-target=".navbar" data-offset="60">
-
-<!-- MAIN (Center website) -->
-<div class="main">
+<body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="60">
 
 <nav class="navbar navbar-default navbar-fixed-top">
   <div class="container">
@@ -316,268 +314,71 @@ h1 {
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>                        
       </button>
-      <a class="navbar-brand" href="index2.html#myPage">BlackJack Pet Shop</a>
+      <a class="navbar-brand" href="#myPage">BlackJack Pet Shop</a>
     </div>
     <div class="collapse navbar-collapse" id="myNavbar">
       <ul class="nav navbar-nav navbar-right">
-        <li><a href="index2.html#quemsomos">QUEM SOMOS?</a></li>
-        <li><a href="index2.html#servicos">SERVIÇOS</a></li>
+        <li><a href="#quemsomos">QUEM SOMOS?</a></li>
+        <li><a href="#servicos">SERVIÇOS</a></li>
         <li><a href="portifolio.html">PORTIFÓLIO</a></li>
-        <!--<li><a href="index2.html#produtos">PRODUTOS</a></li>-->
-        <li><a href="index2.html#contato">CONTATO</a></li>
+        <!--<li><a href="#produtos">PRODUTOS</a></li>-->
+        <li><a href="#contato">CONTATO</a></li>
       </ul>
     </div>
   </div>
 </nav>
 
-</br></br>
-<h2>PORTIFÓLIO</h2>
 
-<div id="myBtnContainer">
-  <button class="btn active" onclick="filterSelection('all')"> Todos</button>
-  <button class="btn" onclick="filterSelection('estetica')"> Estética</button>
-  <button class="btn" onclick="filterSelection('hotel')"> Hotel/Creche</button>
-  <button class="btn" onclick="filterSelection('video')"> Videos</button>
+<!-- Container (Portfolio Section) -->
+<div id="portifolio" class="container-fluid text-center">
+  <h2>Portifólio</h2><hr>
+  <div class="row text-center slideanim">
+    <div class="col-sm-4">
+      <div class="thumbnail content">
+        <img src="assets/img/hotel4.jpg" alt="hotel" width="300" height="200">
+        <!--<p><strong>Lorem</strong></p>
+        <p>Lorem ipsum dolor sit amet..</p>-->
+      </div>
+    </div>
+    <div class="col-sm-4">
+      <div class="thumbnail content">
+        <img src="assets/img/hotel5.jpg" alt="hotel" width="300" height="200">
+      </div>
+    </div>
+    <div class="col-sm-4">
+      <div class="thumbnail content">
+        <img src="assets/img/hotel11.jpg" alt="hotel" width="300" height="200">
+      </div>
+    </div>
+  </div>
+  
+  <div class="row text-center slideanim">
+    <div class="col-sm-4">
+      <div class="thumbnail content">
+        <img src="assets/img/estetica4.jpg" alt="estetica" width="300" height="200">
+      </div>
+    </div>
+    <div class="col-sm-4">
+      <div class="thumbnail content">
+        <img src="assets/img/estetica6.jpg" alt="estetica" width="300" height="200">
+      </div>
+    </div>
+    <div class="col-sm-4">
+      <div class="thumbnail content">
+        <img src="assets/img/estetica9.jpg" alt="estetica" width="300" height="200">
+      </div>
+    </div>
+  </div>
+  
+<a href="portifolio.html" class="btn-xl btn text-center">Veja mais fotos aqui!</a>
+</br>
+
 </div>
 
-<!-- Portfolio Gallery Grid -->
-<div class="row">
 
-<!-- START GRID ESTETICA -->
-  <div class="column estetica">
-    <div class="content">
-      <img src="assets/img/estetica1.jpg" alt="Estetica" style="width:100%">
-    </div>
-  </div>
-  <div class="column estetica">
-    <div class="content">
-    <img src="assets/img/estetica2.jpg" alt="Estetica" style="width:100%">
-    </div>
-  </div>
-  <div class="column estetica">
-    <div class="content">
-    <img src="assets/img/estetica3.jpg" alt="Estetica" style="width:100%">
-    </div>
-  </div>
-  
-  <div class="column estetica">
-    <div class="content">
-      <img src="assets/img/estetica4.jpg" alt="Estetica" style="width:100%">
-    </div>
-  </div>
-  <div class="column estetica">
-    <div class="content">
-    <img src="assets/img/estetica5.jpg" alt="Estetica" style="width:100%">
-    </div>
-  </div>
-  <div class="column estetica">
-    <div class="content">
-    <img src="assets/img/estetica6.jpg" alt="Estetica" style="width:100%">
-    </div>
-  </div>
-  
-  <div class="column estetica">
-    <div class="content">
-      <img src="assets/img/estetica7.jpg" alt="Estetica" style="width:100%">
-    </div>
-  </div>
-  <div class="column estetica">
-    <div class="content">
-    <img src="assets/img/estetica8.jpg" alt="Estetica" style="width:100%">
-    </div>
-  </div>
-  <div class="column estetica">
-    <div class="content">
-    <img src="assets/img/estetica9.jpg" alt="Estetica" style="width:100%">
-    </div>
-  </div>
-  
-  <div class="column estetica">
-    <div class="content">
-      <img src="assets/img/estetica10.jpg" alt="Estetica" style="width:100%">
-    </div>
-  </div>
-  <div class="column estetica">
-    <div class="content">
-    <img src="assets/img/estetica11.jpg" alt="Estetica" style="width:100%">
-    </div>
-  </div>
-  <div class="column estetica">
-    <div class="content">
-    <img src="assets/img/estetica12.jpg" alt="Estetica" style="width:100%">
-    </div>
-  </div>
-  
-  <div class="column estetica">
-    <div class="content">
-      <img src="assets/img/estetica13.jpg" alt="Estetica" style="width:100%">
-    </div>
-  </div>
-  <div class="column estetica">
-    <div class="content">
-    <img src="assets/img/estetica14.jpg" alt="Estetica" style="width:100%">
-    </div>
-  </div>
-  <div class="column estetica">
-    <div class="content">
-    <img src="assets/img/estetica15.jpg" alt="Estetica" style="width:100%">
-    </div>
-  </div>
-  
-  <div class="column estetica">
-    <div class="content">
-      <img src="assets/img/estetica16.jpg" alt="Estetica" style="width:100%">
-    </div>
-  </div>
-  <div class="column estetica">
-    <div class="content">
-    <img src="assets/img/estetica17.jpg" alt="Estetica" style="width:100%">
-    </div>
-  </div>
-  <div class="column estetica">
-    <div class="content">
-    <img src="assets/img/estetica18.jpg" alt="Estetica" style="width:100%">
-    </div>
-  </div>
 
-<!-- END GRID ESTETICA -->
 
-<!-- START GRID HOTEL -->    
-  <div class="column hotel">
-    <div class="content">
-      <img src="assets/img/hotel17.jpg" alt="Hotel" style="width:100%">
-      <!--<h4>Hotel 1</h4>-->
-      <!--<p>Lorem ipsum dolor..</p>-->
-    </div>
-  </div>
-  <div class="column hotel">
-    <div class="content">
-    <img src="assets/img/hotel2.jpg" alt="Hotel" style="width:100%">
-    </div>
-  </div>
-  <div class="column hotel">
-    <div class="content">
-    <img src="assets/img/hotel3.jpg" alt="Hotel" style="width:100%">
-    </div>
-  </div>
-  
-  <div class="column hotel">
-    <div class="content">
-      <img src="assets/img/hotel4.jpg" alt="Hotel" style="width:100%">
-    </div>
-  </div>
-  <div class="column hotel">
-    <div class="content">
-    <img src="assets/img/hotel5.jpg" alt="Hotel" style="width:100%">
-    </div>
-  </div>
-  <div class="column hotel">
-    <div class="content">
-    <img src="assets/img/hotel6.jpg" alt="Hotel" style="width:100%">
-    </div>
-  </div>
-  
-  <div class="column hotel">
-    <div class="content">
-      <img src="assets/img/hotel7.jpg" alt="Hotel" style="width:100%">
-    </div>
-  </div>
-  <div class="column hotel">
-    <div class="content">
-    <img src="assets/img/hotel8.jpg" alt="Hotel" style="width:100%">
-    </div>
-  </div>
-  <div class="column hotel">
-    <div class="content">
-    <img src="assets/img/hotel9.jpg" alt="Hotel" style="width:100%">
-    </div>
-  </div>
-  
-  <div class="column hotel">
-    <div class="content">
-      <img src="assets/img/hotel10.jpg" alt="Hotel" style="width:100%">
-    </div>
-  </div>
-  <div class="column hotel">
-    <div class="content">
-    <img src="assets/img/hotel11.jpg" alt="Hotel" style="width:100%">
-    </div>
-  </div>
-  <div class="column hotel">
-    <div class="content">
-    <img src="assets/img/hotel12.jpg" alt="Hotel" style="width:100%">
-    </div>
-  </div>
-  
-  <div class="column hotel">
-    <div class="content">
-      <img src="assets/img/hotel16.jpg" alt="Hotel" style="width:100%">
-    </div>
-  </div>
-  <div class="column hotel">
-    <div class="content">
-    <img src="assets/img/hotel14.jpg" alt="Hotel" style="width:100%">
-    </div>
-  </div>
-  <div class="column hotel">
-    <div class="content">
-    <img src="assets/img/hotel15.jpg" alt="Hotel" style="width:100%">
-    </div>
-  </div>
-  
-  <div class="column hotel">
-    <div class="content">
-    <img src="assets/img/hotel13.jpg" alt="Hotel" style="width:100%">
-    </div>
-  </div>
-  <div class="column hotel">
-    <div class="content">
-    <img src="assets/img/hotel1.jpg" alt="Hotel" style="width:100%">
-    </div>
-  </div>
-  <div class="column hotel">
-    <div class="content">
-    <img src="assets/img/hotel18.jpg" alt="Hotel" style="width:100%">
-    </div>
-  </div>
-<!-- END GRID HOTEL -->
 
-<!-- START GRID VIDEO -->
-<div class="column hotel video">
-  <div class="content">
-    <video width="300" height="320" controls>
-      <source src="assets/video/video1.mp4" type="video/mp4">
-      <source src="assets/video/video1.ogg" type="video/ogg">
-      Your browser does not support the video tag.
-    </video>
-  </div>
-</div>
-<div class="column hotel video">
-  <div class="content">
-    <video width="300" height="320" controls>
-      <source src="assets/video/video2.mp4" type="video/mp4">
-      <source src="assets/video/video2.ogg" type="video/ogg">
-      Your browser does not support the video tag.
-    </video>
-  </div>
-</div>
-<div class="column hotel video">
-  <div class="content">
-    <video width="300" height="320" controls>
-      <source src="assets/video/video3.mp4" type="video/mp4">
-      <source src="assets/video/video3.ogg" type="video/ogg">
-      Your browser does not support the video tag.
-    </video>
-  </div>
-</div>
-
-<!-- END GRID VIDEO -->
-  
-<!-- END GRID -->
-</div>
-
-<!-- END MAIN -->
-</div>
 
 <!-- Container (Rodape Section) -->
 <footer id="footer" class="container-fluid text-center" style="background-color: rgba(0, 153, 51, .1);">
@@ -629,52 +430,6 @@ $(document).ready(function(){
     });
   });
 })
-</script>
-
-<script>
-filterSelection("all")
-function filterSelection(c) {
-  var x, i;
-  x = document.getElementsByClassName("column");
-  if (c == "all") c = "";
-  for (i = 0; i < x.length; i++) {
-    w3RemoveClass(x[i], "show");
-    if (x[i].className.indexOf(c) > -1) w3AddClass(x[i], "show");
-  }
-}
-
-function w3AddClass(element, name) {
-  var i, arr1, arr2;
-  arr1 = element.className.split(" ");
-  arr2 = name.split(" ");
-  for (i = 0; i < arr2.length; i++) {
-    if (arr1.indexOf(arr2[i]) == -1) {element.className += " " + arr2[i];}
-  }
-}
-
-function w3RemoveClass(element, name) {
-  var i, arr1, arr2;
-  arr1 = element.className.split(" ");
-  arr2 = name.split(" ");
-  for (i = 0; i < arr2.length; i++) {
-    while (arr1.indexOf(arr2[i]) > -1) {
-      arr1.splice(arr1.indexOf(arr2[i]), 1);     
-    }
-  }
-  element.className = arr1.join(" ");
-}
-
-
-// Add active class to the current button (highlight it)
-var btnContainer = document.getElementById("myBtnContainer");
-var btns = btnContainer.getElementsByClassName("btn");
-for (var i = 0; i < btns.length; i++) {
-  btns[i].addEventListener("click", function(){
-    var current = document.getElementsByClassName("active");
-    current[0].className = current[0].className.replace(" active", "");
-    this.className += " active";
-  });
-}
 </script>
 
 </body>
