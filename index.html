@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html lang="en">
 
 <head>
   <meta charset="utf-8">
@@ -14,220 +14,334 @@
   <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">-->
   <link href="assets/pet/logo.png" rel="icon">
   <link href="assets/pet/logo.png" rel="apple-touch-icon">
-
   <!-- Google Fonts -->
-  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Roboto:300,300i,400,400i,500,500i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i|Playfair+Display:400,400i,500,500i,600,600i,700,700i&subset=cyrillic" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet" type="text/css">
 
   <!-- Vendor CSS Files -->
   <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
   <link href="assets/vendor/icofont/icofont.min.css" rel="stylesheet">
   <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
-  <link href="assets/vendor/animate.css/animate.min.css" rel="stylesheet">
   <link href="assets/vendor/venobox/venobox.css" rel="stylesheet">
+  <link href="assets/vendor/owl.carousel/assets/owl.carousel.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
 
   <!-- Template Main CSS File -->
   <link href="assets/css/style.css" rel="stylesheet">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
-  
-  
-<style>
-.float{
-	position:fixed;
-	width:60px;
-	height:60px;
-	bottom:40px;
-	right:40px;
-	background-color:#25d366;
-	color:#FFF;
-	border-radius:50px;
-	text-align:center;
-  font-size:30px;
-	box-shadow: 2px 2px 3px #999;
-  z-index:100;
-}
 
-.my-float{
-	margin-top:16px;
-}
-</style>
-
-<!-- Facebook Pixel Code -->
-<script>
-  !function(f,b,e,v,n,t,s)
-  {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
-  n.callMethod.apply(n,arguments):n.queue.push(arguments)};
-  if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
-  n.queue=[];t=b.createElement(e);t.async=!0;
-  t.src=v;s=b.getElementsByTagName(e)[0];
-  s.parentNode.insertBefore(t,s)}(window, document,'script',
-  'https://connect.facebook.net/en_US/fbevents.js');
-  fbq('init', '158653742075164');
-  fbq('track', 'PageView');
-</script>
-<noscript><img height="1" width="1" style="display:none"
-  src="https://www.facebook.com/tr?id=158653742075164&ev=PageView&noscript=1"
-/></noscript>
-<!-- End Facebook Pixel Code -->
 
 </head>
-
+<style>
+span.a {
+  display: inline; /* the default for span */
+  width: 100px;
+  height: 100px;
+  padding: 5px;
+  /* border: 1px solid blue; */
+  /* background-color: yellow; */
+}
+</style
 <body>
 
-  <!-- ======= Hero Section ======= -->
-  <section id="hero">
-    <div class="hero-container">
-      <div id="heroCarousel" class="carousel slide carousel-fade" data-ride="carousel">
-
-        <ol class="carousel-indicators" id="hero-carousel-indicators"></ol>
-
-        <div class="carousel-inner" role="listbox">
-
-          <!-- Slide 1 -->
-          <div class="carousel-item active">
-            <div class="carousel-background"><img src="assets/pet/4.png" alt=""></div>
-            <div class="carousel-container">
-              <div class="carousel-content">
-			    <img src="assets/pet/logo.png" class="img-responsive" width="50" height="50">
-                <h2 class="animated fadeInDown">Quem Somos?</h2>
-                <p class="animated fadeInUp" style="text-align: justify; font-size: 10px;">Nossa história empreendedora começou com o amor por nossos dois cachorrinhos, o Horácio e a Neguinha. Sempre ficávamos com o coração partido quando precisávamos nos ausentar, e deixá-los hospedados em algum lugar, não sentiamos o conforto e o carinho da nossa casa em nenhum lugar, por melhor que fosse. Foi quando surgiu a oportunidade de empreender na nossa primeira unidade, um espaço pequeno, localizado dentro de um condomínio residencial. Após 3 anos simplesmente a casa lotou, não tinhamos mais espaço para atender a tantos pedidos de hospedagem, assim como nosso banho e tosa chegou ao limite de atendimento. Deixar de atender os clientes que confiam tanto em nós, não era uma opcão! A segunda unidade é a nossa grande realização, por que nela oferecemos além da estética, o day care, tão sonhado por nossos clientes que querem trazer mais diversão no dia-a-dia dos seus pets.</p>
-              </div>
-            </div>
-          </div>
-
-          <!-- Slide 2 -->
-          <div class="carousel-item">
-            <div class="carousel-background"><img src="assets/pet/2.png" alt=""></div>
-            <div class="carousel-container">
-              <div class="carousel-content">
-			    <img src="assets/pet/logo.png" class="img-responsive" width="50" height="50">
-                <h2 class="animated fadeInDown">Pet Shop</h2>
-                <p class="animated fadeInUp" style="text-align: justify; font-size: 10px;">A higiene do seu pet é fundamental para uma vida saudável, por isso oferecemos um ambiente impecável, com produtos de qualidade e uma equipe bem treinada. Assim podemos oferecer além da estética o bem estar necessário ao seu animal.</p>
-                <!--<a href="#about" class="btn-get-started animated fadeInUp scrollto">Entre em contato! </br> Mande um whatsapp aqui!</a>-->
-              </div>
-            </div>
-          </div>
-
-          <!-- Slide 3 -->
-          <div class="carousel-item">
-            <div class="carousel-background"><img src="assets/pet/3.png" alt=""></div>
-            <div class="carousel-container">
-              <div class="carousel-content">
-			    <img src="assets/pet/logo.png" class="img-responsive" width="50" height="50">
-                <h2 class="animated fadeInDown">Hospedagem</h2>
-                <p class="animated fadeInUp" style="text-align: justify; font-size: 10px;">Nossa missão é propocionar dessa hospedagem a extensão da sua casa ao seu pet. Pensando nisso, nosssa estrutura foi planejada para que ele tenha momentos muito divertidos com seus amigos, e também o conforto em que está habituado, sem baias ou gaiolas, aqui temos dormitórios com camas e puffs. Isso mesmo!! Exatamente como na sua casa, mas o bonus aqui, é estar sempre acompanhado e supervisonado pelos nossos monitores, que são apaixonados por animais, ganhando muito amor e abraços apertados. Além de segurança 24 horas por dia.</p>
-                <!--<a href="#about" class="btn-get-started animated fadeInUp scrollto">Entre em contato! </br> Mande um whatsapp aqui!</a>-->
-              </div>
-            </div>
-          </div>
-		  
-          <!-- Slide 4 -->
-          <div class="carousel-item">
-            <div class="carousel-background"><img src="assets/pet/7.png" alt=""></div>
-            <div class="carousel-container">
-              <div class="carousel-content">
-			    <img src="assets/pet/logo.png" class="img-responsive" width="50" height="50">
-                <h2 class="animated fadeInDown">Creche (Day care)</h2>
-                <p class="animated fadeInUp" style="text-align: justify; font-size: 10px;">Já imaginou sua vida com diversão e atencão apenas 2 ou 3 horas por dia? Triste né? Nossos pets passam por isso e poucos tem essa percepcão, eles precisam de atividades e interacões diariamente. Não somente aos finais de semana. Aqui criamos condicões para que ele possa expressar seus comportamentos e desenvolver habilidades, dentro de um ambiente saudável de muita diversão e cuidado. Presenteie seu pet com qualidade de vida!!</p>				
-              </div>
-            </div>
-          </div>
-
-        </div>
-
-        <a class="carousel-control-prev" href="#heroCarousel" role="button" data-slide="prev">
-          <span class="carousel-control-prev-icon icofont-thin-double-left" aria-hidden="true"></span>
-          <span class="sr-only">Previous</span>
-        </a>
-
-        <a class="carousel-control-next" href="#heroCarousel" role="button" data-slide="next">
-          <span class="carousel-control-next-icon icofont-thin-double-right" aria-hidden="true"></span>
-          <span class="sr-only">Next</span>
-        </a>
-
-      </div>
-    </div>
-  </section><!-- End Hero -->
   
+  <!-- ======= Header ======= -->
+  <header id="header">
+    <div class="container d-flex align-items-center">
 
+      <div class="logo mr-auto">
+        <h1 class="text-light"><a href="index.html"><span style="color: red;">BlackJack</span><span style="color: white;"> Pet Shop</span></a></h1>
+        <!-- Uncomment below if you prefer to use an image logo -->
+        <!-- <a href="index.html"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
+      </div>
 
+      <nav class="nav-menu d-none d-lg-block">
+        <ul>
+          <li><a href="#quemsomos">QUEM SOMOS</a></li>
+          <li><a href="#servicos">SERVIÇOS</a></li>
+          <li><a href="portifolio.html">PORTIFÓLIO</a></li>
+		  <li><a href="#depoimentos">DEPOIMENTOS</a></li>
+          <li><a href="#contato">CONTATO</a></li>
 
-<div>
-<a href="https://api.whatsapp.com/send?phone=5511975751748&text=Olá%21%20Gostaria%20de%20mais%20informações%20sobre%20o%20Pet%20Shop%20BlackJack." class="float" target="_blank"><i class="fa fa-whatsapp my-float"></i></a>
-</div>
+        </ul>
+      </nav>
 
+    </div>
+  </header><!-- End Header -->
 
-  <!-- ======= Footer ======= -->
-  <footer id="footer">
-    <!--<div class="footer-top">
+  <main id="main">
+
+    <!-- ======= Social Media Section ======= -->
+   <!-- ======= Contact Section ======= -->
+    <section id="contact" class="contact section-bg text-center">
       <div class="container">
+
         <div class="row">
 
-          <div class="col-lg-3 col-md-6 footer-info">
-            <h3>BlackJack Pet Shop</h3>
-            <p>
-              Rua Ana Pereira Melo, 121 <br>
-              Vila Campesina - Osasco <br><br>
-              <strong>Telefone:</strong> +55 11 97575-1746<br>
-              <strong>E-mail:</strong> info@example.com<br>
-            </p>
-            <div class="social-links mt-3">
-              <a href="#" class="facebook"><i class="bx bxl-facebook"></i></a>
-              <a href="#" class="instagram"><i class="bx bxl-instagram"></i></a>
+          <div class="col-lg-6">
+            <div class="contact-about">
+              <h3>FIQUE POR DENTRO</h3>
             </div>
           </div>
 
-          <div class="col-lg-2 col-md-6 footer-links">
-            <h4>Useful Links</h4>
-            <ul>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Home</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">About us</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Services</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Terms of service</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Privacy policy</a></li>
-            </ul>
-          </div>
 
-          <div class="col-lg-3 col-md-6 footer-links">
-            <h4>Our Services</h4>
-            <ul>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Web Design</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Web Development</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Product Management</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Marketing</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Graphic Design</a></li>
-            </ul>
+          <div class="col-lg-6">
+            <div class="contact-about">
+              <!--<h3>FIQUE POR DENTRO</h3>-->
+              <div class="social-links">
+                <a href="https://api.whatsapp.com/send?phone=5511975751748&text=Olá%21%20Gostaria%20de%20mais%20informações%20sobre%20o%20BlackJack%20Pet%20Shop." class="whatsapp"><i class="icofont-whatsapp icofont-3x""></i></a>
+                <a href="https://www.facebook.com/BlackJackPet" class="facebook"><i class="icofont-facebook icofont-3x""></i></a>
+                <a href="https://www.instagram.com/blackjack_pet/" class="instagram"><i class="icofont-instagram icofont-3x""></i></a>
+              </div>
+            </div>
           </div>
 
         </div>
+
       </div>
-    </div>-->
+    </section><!-- End Social Media Section -->
+	
+    <!-- ======= About Section ======= -->
+    <section id="quemsomos" class="services section-bg">
+      <div class="container">
 
-    <div class="container">	
-		<div class="copyright" style="text-align: center; font-size: 10px;">
-			
-			<div class="social-links mt-3">
-			&copy;<strong><span> BlackJack Pet Shop </span></strong>| Todos os direitos reservados </br>
-			<a href="https://www.facebook.com/BlackJackPet" class="facebook"><i class="bx bxl-facebook"></i></a>
-			<a href="http://instagram.com/blackjack_pet" class="instagram"><i class="bx bxl-instagram"></i></a>
-			</div>
-			</br>
-			<div class="row">
-				<div class="col-lg-6 col-md-6 col-sm-12 footer-info">
-					<strong><span> Unidade I (Cond. São Cristóvão)</span></strong>
-					<p>Rua Juan Vicente, 482 - Bandeiras - Osasco </br>
-					+55 11 94746-1748 </br>
-				</div>
-				<div class="col-lg-6 col-md-6 col-sm-12 footer-info">
-					<strong><span> Unidade II </span></strong>
-					<p>Rua Ana Pereira Melo, 121 - Vila Campesina - Osasco </br>
-					+55 11 97575-1748</br>
-				</div>
-			</div>
-			
+        <div class="section-title text-center">
+          <h2>QUEM SOMOS?</h2>
+        </div>
+		
+	  <div class="row">
+		<div class="col-sm-4" style="text-align: justify;">
+		  <img src="assets/pet/logo.png" alt="logo" class="img-responsive center" width="50%">
+		  <p>Nossa história empreendedora começou com o amor por nossos dois cachorrinhos, o Horácio e a Neguinha.</p>
 		</div>
-    </div>
-  </footer><!-- End Footer -->
+		<div class="col-sm-8" style="text-align: justify;">
+		  <p>Sempre ficávamos com o coração partido quando precisávamos nos ausentar, e deixá-los hospedados em algum lugar, não sentiamos o conforto e o carinho da nossa casa em nenhum lugar, por melhor que fosse. Foi quando surgiu a oportunidade de empreender na nossa primeira unidade, um espaço pequeno, localizado dentro de um condomínio residencial. Após 3 anos simplesmente a casa lotou, não tinhamos mais espaço para atender a tantos pedidos de hospedagem, assim como nosso banho e tosa chegou ao limite de atendimento. Deixar de atender os clientes que confiam tanto em nós, não era uma opção! A segunda unidade é a nossa grande realização, por que nela oferecemos além da estética, o day care, tão sonhado por nossos clientes que querem trazer mais diversão no dia-a-dia dos seus pets.</p>
+		</div>
+	  </div>
 
+      </div>
+    </section><!-- End About Section -->
+	
+
+    <!-- ======= Services Section ======= -->
+    <section id="servicos" class="services section-bg">
+      <div class="container">
+
+        <div class="section-title text-center">
+          <h2>SERVIÇOS</h2>
+        </div>
+
+        <div class="row">
+          <div class="col-md-4 col-lg-4 d-flex align-items-stretch mb-5 mb-lg-0">
+            <div class="icon-box">
+			  <img src="assets/img/banho.png" alt="banho" class="img-responsive center" width="50%">
+              <h4 class="title"><a href="">BANHO & TOSA</a></h4>
+              <p class="description" style="text-align: justify;">A higiene do seu pet é fundamental para uma vida saudável, por isso oferecemos um ambiente impecável, com produtos de qualidade e uma equipe bem treinada. Assim podemos oferecer além da estética o bem estar necessário ao seu animal.</p>
+            </div>
+          </div>
+
+          <div class="col-md-4 col-lg-4 d-flex align-items-stretch mb-5 mb-lg-0">
+            <div class="icon-box">
+              <img src="assets/img/hotel.png" alt="hospedagem" class="img-responsive center" width="50%">
+              <h4 class="title"><a href="">HOSPEDAGEM</a></h4>
+              <p class="description" style="text-align: justify;">Nossa missão é propocionar dessa hospedagem a extensão da sua casa ao seu pet. Pensando nisso, nosssa estrutura foi planejada para que ele tenha momentos muito divertidos com seus amigos, e também o conforto em que está habituado, sem baias ou gaiolas, aqui temos dormitórios com camas e puffs. Isso mesmo! Exatamente como na sua casa, mas o bônus aqui, é estar sempre acompanhado e supervisonado pelos nossos monitores, que são apaixonados por animais, ganhando muito amor e abraços apertados. Além de segurança 24 horas por dia.</p>
+            </div>
+          </div>
+
+          <div class="col-md-4 col-lg-4 d-flex align-items-stretch mb-5 mb-lg-0">
+            <div class="icon-box">
+              <img src="assets/img/creche.png" alt="creche" class="img-responsive center" width="50%">
+              <h4 class="title"><a href="">CRECHE (DAY CARE)</a></h4>
+              <p class="description" style="text-align: justify;">Já imaginou sua vida com diversão e atenção apenas 2 ou 3 horas por dia? Triste né? Nossos pets passam por isso e poucos tem essa percepcão, eles precisam de atividades e interacões diariamente. Não somente aos finais de semana. Aqui criamos condicões para que ele possa expressar seus comportamentos e desenvolver habilidades, dentro de um ambiente saudável de muita diversão e cuidado. Presenteie seu pet com qualidade de vida!!</p>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section><!-- End Services Section -->
+
+    <!-- ======= Portfolio Section ======= -->
+    <section id="portifolio" class="portfolio section-bg">
+      <div class="container">
+
+        <div class="section-title text-center">
+          <h2>PORTIFÓLIO</h2>
+        </div>
+
+        <div class="row portfolio-container">
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-hotel">
+            <div class="portfolio-wrap">
+              <img src="assets/img/hotel11.jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>Hotel 1</h4>
+                <!--<p>App</p>-->
+              </div>
+              <div class="portfolio-links">
+                <a href="assets/img/hotel11.jpg" data-gall="portfolioGallery" class="venobox" title="Hotel 1"><i class="bx bx-plus"></i></a>
+                <!--<a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>-->
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-hotel">
+            <div class="portfolio-wrap">
+              <img src="assets/img/hotel4.jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>Hotel 2</h4>
+              </div>
+              <div class="portfolio-links">
+                <a href="assets/img/hotel4.jpg" data-gall="portfolioGallery" class="venobox" title="Hotel 2"><i class="bx bx-plus"></i></a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-hotel">
+            <div class="portfolio-wrap">
+              <img src="assets/img/hotel12.jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>Hotel 3</h4>
+              </div>
+              <div class="portfolio-links">
+                <a href="assets/img/hotel12.jpg" data-gall="portfolioGallery" class="venobox" title="Hotel 3"><i class="bx bx-plus"></i></a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-estetica">
+            <div class="portfolio-wrap">
+              <img src="assets/img/estetica7.jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>Estética 1</h4>
+              </div>
+              <div class="portfolio-links">
+                <a href="assets/img/estetica7.jpg" data-gall="portfolioGallery" class="venobox" title="Estetica 1"><i class="bx bx-plus"></i></a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-estetica">
+            <div class="portfolio-wrap">
+              <img src="assets/img/estetica8.jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>Estética 2</h4>
+              </div>
+              <div class="portfolio-links">
+                <a href="assets/img/estetica8.jpg" data-gall="portfolioGallery" class="venobox" title="Estetica 2"><i class="bx bx-plus"></i></a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-estetica">
+            <div class="portfolio-wrap">
+              <img src="assets/img/estetica15.jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>Estética 3</h4>
+              </div>
+              <div class="portfolio-links">
+                <a href="assets/img/estetica15.jpg" data-gall="portfolioGallery" class="venobox" title="Estetica 3"><i class="bx bx-plus"></i></a>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+	  
+
+	<div class="text-center info">	
+		<a href="portifolio.html" class="btn btn-success btn-lg" role="button">Veja mais fotos aqui!</a>
+	</div>
+	
+	  
+    </section><!-- End Portfolio Section -->
+
+    <!-- ======= Testimonials Section ======= -->
+    <section id="depoimentos" class="testimonials section-bg">
+      <div class="container">
+
+        <div class="section-title text-center">
+          <h2>DEPOIMENTOS</h2>
+        </div>
+
+        <div class="owl-carousel testimonials-carousel">
+
+		<img src="assets/img/depoimento1.jpg" class="img-fluid center testimonial-item" alt="" style="width: 50%;">
+		<img src="assets/img/depoimento2.jpg" class="img-fluid center testimonial-item" alt="" style="width: 50%;">
+		<img src="assets/img/depoimento3.jpg" class="img-fluid center testimonial-item" alt="" style="width: 50%;">
+		
+		<img src="assets/img/depoimento4.jpg" class="img-fluid center testimonial-item" alt="" style="width: 50%;">
+		<img src="assets/img/depoimento5.jpg" class="img-fluid center testimonial-item" alt="" style="width: 50%;">
+		<img src="assets/img/depoimento6.jpg" class="img-fluid center testimonial-item" alt="" style="width: 50%;">
+		
+		<img src="assets/img/depoimento7.jpg" class="img-fluid center testimonial-item" alt="" style="width: 50%;">
+		<img src="assets/img/depoimento8.jpg" class="img-fluid center testimonial-item" alt="" style="width: 50%;">	
+		
+          <!--<div class="testimonial-item">
+            <p>
+              <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+              Quis quorum aliqua sint quem legam fore sunt eram irure aliqua veniam tempor noster veniam enim culpa labore duis sunt culpa nulla illum cillum fugiat legam esse veniam culpa fore nisi cillum quid.
+              <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+            </p>
+            <img src="assets/img/testimonials/testimonials-5.jpg" class="testimonial-img" alt="">
+            <h3>John Larson</h3>
+            <h4>Entrepreneur</h4>
+          </div>-->
+
+        </div>
+
+      </div>
+    </section><!-- End Testimonials Section -->
+
+    <!-- ======= Contact Section ======= -->
+    <section id="contato" class="contact section-bg">
+      <div class="container">
+
+		<div class="section-title text-center">
+		  <h2>CONTATO</h2><!--<hr>-->
+		</div>
+		
+		<div class="text-center info">	
+		<a href="https://api.whatsapp.com/send?phone=5511975751748&text=Olá%21%20Gostaria%20de%20mais%20informações%20sobre%20o%20BlackJack%20Pet%20Shop." class="btn btn-success btn-lg" role="button">Atendimento via Whatsapp aqui!</a>
+		</div></br>
+		  
+		  <div class="row" style="text-align: center;">
+			<div class="col-sm-6">
+				<strong><h3> Unidade I (Cond. São Cristóvão)</h3></strong>
+				<p>Rua Juan Vicente, 482 - Bandeiras </br>
+				+55 11 94746-1748 </br>
+				<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3657.239030667355!2d-46.81669484923169!3d-23.559857167347133!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ceffb5dfbc39dd%3A0x61db31bd69b6fcf0!2sBlackJack%20Pet%20Shop%20-%20Condom%C3%ADnio%20S%C3%A3o%20Crist%C3%B3v%C3%A3o!5e0!3m2!1spt-BR!2suk!4v1597257154967!5m2!1spt-BR!2suk" width="100%" height="320" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+			</div>
+			<div class="col-sm-6">
+				<strong><h3> Unidade II </h3></strong>
+				<p>Rua Ana Pereira Melo, 121 - Vila Campesina </br>
+				+55 11 97575-1748</br>
+				<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3657.701393520744!2d-46.76986324923226!3d-23.543240066733823!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ceffd93234b497%3A0x854798e20dcdee46!2sBlackJack%20pet%20shop%20-%20Vila%20Campesina!5e0!3m2!1spt-BR!2suk!4v1597257335653!5m2!1spt-BR!2suk" width="100%" height="320" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+			</div>
+		  </div>
+
+
+      </div>
+    </section><!-- End Contact Section -->
+
+  </main><!-- End #main -->
+
+  <!-- ======= Footer ======= -->
+  <footer id="footer" style="background-color: rgba(0, 153, 51, .4);">
+  <!--<footer id="footer" style="background-color: rgba(255, 26, 26, .4);">-->
+    <div class="container">
+      <div class="copyright">
+		<p><a href="http://www.blackjackpet.com.br" data-toggle="tooltip" title="BlackJack Pet Shop" style="color: black;">&copy; BlackJack Pet Shop </a></p>
+		<img src="assets/pet/logo.png" alt="logo" class="img-responsive center" width="60" height="60"></br>
+		<a href="https://www.facebook.com/BlackJackPet" class="facebook"><i class="fa fa-facebook-square" style="font-size:36px;color:gray;"></i></a>
+		<a href="https://www.instagram.com/blackjack_pet/" class="instagram"><i class="fa fa-instagram" style="font-size:36px;color:gray;"></i></a>
+		
+      </div>
+    </div>
+  </footer><!-- End  Footer -->
+
+  <a href="#" class="back-to-top"><i class="icofont-simple-up"></i></a>
 
   <!-- Vendor JS Files -->
   <script src="assets/vendor/jquery/jquery.min.js"></script>
@@ -239,6 +353,7 @@
   <script src="assets/vendor/counterup/counterup.min.js"></script>
   <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
   <script src="assets/vendor/venobox/venobox.min.js"></script>
+  <script src="assets/vendor/owl.carousel/owl.carousel.min.js"></script>
 
   <!-- Template Main JS File -->
   <script src="assets/js/main.js"></script>
