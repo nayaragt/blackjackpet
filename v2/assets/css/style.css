@@ -1038,10 +1038,10 @@ services .icon-box::before {
   line-height: 1;
   padding: 8px 0;
   margin-right: 4px;
-  border-radius: 50%;
+  border-radius: 30%;
   text-align: center;
-  width: 36px;
-  height: 36px;
+  width: 70px;
+  height: 70px;
   transition: 0.3s;
   border: 1px solid #009933;
 }
