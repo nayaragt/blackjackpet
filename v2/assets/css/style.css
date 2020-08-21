@@ -1191,3 +1191,7 @@ services .icon-box::before {
   text-align: center;
   font-size: 13px;
 }
+
+.social-custom:hover {
+    opacity: 0.5;
+}
