@@ -1202,9 +1202,14 @@ services .icon-box::before {
   width: 100%;
   text-align: center;
   text-decoration: none;
-  margin: 5px 2px;
+  /*margin: 5px 2px; */
+  margin: 5px 2px auto;
+  vertical-align: middle;
   border-radius: 10px;
   color: #fff !important;
+  /* font-family: Montserrat, sans-serif !important; */
+  font: 400 15px Lato, sans-serif;
+  /* line-height: 1.6; */
 }
 
 .social-custom-2:hover {
